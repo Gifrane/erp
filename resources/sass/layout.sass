@@ -1,0 +1,178 @@
+@import './variables'
+
+$border-menu: 2px solid rgba(197, 197, 197, 0.4)
+
+.layout
+    height: 100vh
+    position: relative
+
+    .layout-wrapper
+        display: flex
+        height: 100%
+        overflow-y: auto
+        width: 100%
+
+        .layout-body
+            position: relative
+            width: calc(100% - $width-sidebar)
+
+            .layout-body-page
+                height: calc(100% - $height-navbar)
+                margin-top: $height-navbar
+                overflow-y: auto
+
+            .layout-navbar-wrapper
+                height: $height-navbar
+                position: fixed
+                width: calc(100% - $width-sidebar)
+                z-index: 1
+
+                .layout-navbar
+                    align-items: center
+                    display: flex
+                    flex-direction: row
+                    justify-content: space-between
+                    width: 100%
+
+                    .navbar-left
+                        display: flex
+                        margin-left: 30px
+
+                        svg path
+                            fill: #dae0e5
+
+                    .navbar-right
+                        align-items: center
+                        display: flex
+                        flex-direction: row
+                        height: $height-navbar
+                        margin-right: 16px
+
+                        .applications
+                            position: relative
+
+                            .applications-menu-wrapper
+                                bottom: -8px
+                                position: absolute
+                                right: 0
+                                transform: translateY(100%)
+
+                                .applications-menu
+                                    background-color: white
+                                    border: $border-menu
+                                    border-radius: 8px
+                                    padding: 16px
+
+                                    table
+                                        tbody
+                                            tr
+                                                td
+                                                    padding-bottom: 8px
+                                                    padding-left: 8px
+                                                    padding-right: 8px
+                                                    padding-top: 8px
+
+                                                    &:hover
+                                                        background-color: rgba(197, 197, 197, 0.4)
+                                                        border-radius: 16px
+
+                                                    .menu-td-app
+                                                        text-align: center
+                                                        width: 120px
+
+                                                        .app-label
+                                                            color: #31353D
+                                                            font-size: 14px
+                                                            overflow: hidden
+                                                            text-align: center
+                                                            text-overflow: ellipsis
+                                                            white-space: nowrap
+
+                        .notifications-wrapper
+                            margin-left: 32px
+                            position: relative
+
+                            .notifications-icon
+                                align-items: center
+                                display: flex
+                                height: 100%
+
+                            .notifications-menu
+                                bottom: -8px
+                                position: absolute
+                                right: -32px
+                                transform: translateY(100%)
+
+                                .notifications-menu-wrapper
+                                    background-color: white
+                                    border: $border-menu
+                                    border-radius: 8px
+                                    max-height: 100px
+                                    overflow-y: auto
+                                    width: 400px
+
+                                    .menu-header
+                                        border-bottom: 1px solid #dee2e6
+                                        margin-bottom: 8px
+                                        margin-right: 12px
+                                        padding-left: 12px
+                                        padding-bottom: 4px
+                                        padding-top: 8px
+
+                        .user-menu-wrapper
+                            margin-left: 32px
+                            position: relative
+
+                            img
+                                border: 1px solid black
+                                border-radius: 50%
+                                cursor: pointer
+                                height: 50px
+                                vertical-align: middle
+                                width: 50px
+
+                            .user-menu
+                                background-color: white
+                                border: $border-menu
+                                border-radius: 8px
+                                bottom: -8px
+                                padding: 8px
+                                position: absolute
+                                right: 0
+                                transform: translateY(100%)
+                                width: max-content
+
+                                .user-menu-link
+                                    border-radius: 12px
+
+                                    &:hover
+                                        background-color: rgba(197, 197, 197, 0.4)
+
+                                    &:not(:last-child)
+                                        margin-bottom: 4px
+
+                                    a
+                                        color: black
+                                        display: block
+                                        padding-bottom: 8px
+                                        padding-left: 16px
+                                        padding-right: 16px
+                                        padding-top: 8px
+
+        .layout-sidebar
+            border-right: $border-menu
+            display: flex
+            flex-direction: column
+            height: 100%
+            justify-content: space-between
+            overflow-y: auto
+            width: $width-sidebar
+
+            .sidebar-footer
+                margin-bottom: 8px
+                margin-left: 8px
+                margin-top: 8px
+
+                a
+                    color: black
+                    font-size: 18px

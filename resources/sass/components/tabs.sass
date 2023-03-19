@@ -1,0 +1,24 @@
+.tabs
+    display: flex
+    margin-bottom: 32px
+
+    a
+        border-bottom: 1px solid #808FF2
+        color: white
+        display: inline-block
+        font-size: 22px
+        padding-bottom: 4px
+
+        &:after
+            border-bottom: 1px solid white
+            content: ''
+            display: block
+            margin-top: 4px
+            transform: scaleX(0)
+            transition: transform 250ms ease-in-out
+        
+        &:hover:after, &.active:after
+            transform: scaleX(1)
+
+        &:not(:last-child)
+            margin-right: 24px

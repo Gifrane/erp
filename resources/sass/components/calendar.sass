@@ -1,0 +1,22 @@
+.calendar
+    position: relative
+
+    .calendar-window
+        background-color: white
+        border: 1px solid #ced4da
+        border-radius: 4px
+        display: none
+        max-width: 500px
+        right: 0
+        width: 100%
+        z-index: 1
+
+        &.bottom
+            top: 100%
+
+        &.top
+            bottom: 100%
+
+        &.show
+            display: block
+            position: absolute

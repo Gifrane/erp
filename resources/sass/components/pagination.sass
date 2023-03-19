@@ -1,0 +1,35 @@
+.pagination
+    align-items: center
+    display: flex
+    justify-content: space-between
+
+    .pagination-options
+        align-items: center
+        display: flex
+        justify-content: space-between
+
+    .pagination-pages
+        align-items: center
+        display: flex
+        margin-right: 24px
+
+        .pp-page
+            border: 0 none
+            border-color: #E3F2FD
+            border-radius: 4px
+            cursor: pointer
+            font-size: 1rem
+            padding-bottom: 10px
+            padding-left: 14px
+            padding-right: 14px
+            padding-top: 10px
+            user-select: none
+            -webkit-user-select: none
+            -moz-user-select: none
+            -ms-user-select: none
+
+            &.current
+                background-color: #E3F2FD
+
+            &:not(:last-child)
+                margin-right: 4px

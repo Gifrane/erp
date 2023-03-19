@@ -1,0 +1,94 @@
+@import '../sidebar/dashboard'
+
+.dashboard
+    padding-left: 16px
+    padding-right: 16px
+
+    .dashboard-title
+        font-size: 32px
+        margin-bottom: 16px
+        margin-left: 16px
+
+    .grid
+        .col-4
+            .dashboard-col-wrapper
+                padding-left: 8px
+                padding-right: 8px
+                width: 100%
+
+                :deep(.api-block)
+                    background-color: white
+                    border: 2px solid rgba(197, 197, 197, 0.4)
+                    border-radius: 8px
+                    min-height: 100px
+                    width: 100%
+
+                    .api-block-header
+                        border-bottom: 1px solid #dee2e6
+                        margin-bottom: 12px
+                        margin-left: 12px
+                        margin-right: 24px
+                        padding-bottom: 4px
+                        padding-top: 8px
+
+                        a
+                            color: black
+                            font-size: 20px
+
+                    .api-block-general-stats
+                        margin-bottom: 12px
+                        margin-left: 16px
+
+                    .api-block-use-stats
+                        border-top: 1px solid #dee2e6
+                        margin-bottom: 12px
+                        margin-left: 12px
+                        margin-right: 24px
+                        padding-top: 8px
+
+                        .stats-api
+                            padding-left: 4px
+
+                            .grid
+                                .col-5
+                                    padding: initial
+
+                                .col-7
+                                    padding: 0.25rem 0
+                                    text-align: right
+
+                :deep(.crm-block)
+                    background-color: white
+                    border: 2px solid rgba(197, 197, 197, 0.4)
+                    border-radius: 8px
+                    min-height: 100px
+                    width: 100%
+
+                    .crm-block-header
+                        border-bottom: 1px solid #dee2e6
+                        margin-bottom: 12px
+                        margin-left: 12px
+                        margin-right: 24px
+                        padding-bottom: 4px
+                        padding-top: 8px
+
+                        a
+                            color: black
+                            font-size: 20px
+
+                    .crm-block-general-stats
+                        margin-bottom: 12px
+                        margin-left: 16px
+
+                    .crm-block-sales-stats
+                        border-top: 1px solid #dee2e6
+                        margin-bottom: 12px
+                        margin-left: 12px
+                        margin-right: 24px
+                        padding-top: 8px
+
+                        .stats-sales
+                            padding-left: 4px
+
+                            .stats-sales-desc
+                                text-decoration: underline

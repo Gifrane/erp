@@ -1,0 +1,49 @@
+.table
+    background-color: white
+    border-radius: 4px
+    margin-bottom: 16px
+    width: 100%
+
+    tbody
+        tr
+            border-bottom: 1px solid #EBEFF2
+            height: 48px
+
+            &:hover
+                box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+
+            &.tr-small
+                height: 40px
+
+            .td-actions
+                a
+                    vertical-align: middle
+
+                svg
+                    cursor: pointer
+                    vertical-align: middle
+
+            .td-checkbox
+                text-align: center
+                vertical-align: middle
+
+    thead
+        tr
+            border-bottom: 1px solid #EBEFF2
+            height: 48px
+
+            th
+                color: #334D6E
+                font-size: 14px
+                font-weight: 500
+
+                &.th-checkbox
+                    text-align: center
+                    width: 50px
+                
+                &.th-content
+                    padding-left: 8px
+                
+                &.th-with-icon
+                    svg
+                        vertical-align: middle

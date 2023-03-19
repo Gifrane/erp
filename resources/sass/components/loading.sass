@@ -1,0 +1,29 @@
+.loading-background.active
+    background-color: white
+    opacity: 0.7
+    z-index: 2
+    pointer-events: none
+
+    &:after
+        content: ''
+        background-color: rgba(255, 255, 255, 0.7)
+        position: absolute
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+
+    .spinner-border
+        margin: 0
+        position: absolute
+        top: 50%
+        left: 50%
+        z-index: 1
+        display: block
+
+.loading-background
+    &:focus
+        outline: none
+
+    .spinner-border
+        display: none

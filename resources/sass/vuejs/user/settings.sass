@@ -1,0 +1,198 @@
+.settings
+    display: flex
+    margin-bottom: 24px
+    margin-left: 24px
+    margin-right: 24px
+    margin-top: 24px
+
+    .settings-left
+        background-color: #808FF2
+        border-radius: 16px
+        height: fit-content
+        margin-right: 16px
+        padding-bottom: 16px
+        padding-left: 16px
+        padding-right: 16px
+        padding-top: 16px
+        position: relative
+        width: 400px
+
+        .settings-left-link
+            align-items: center
+            background-color: #ECF0FF
+            border-radius: 16px
+            cursor: pointer
+            display: flex
+            height: 45px
+            padding-left: 14px
+            position: relative
+
+            &:not(:last-child)
+                margin-bottom: 12px
+
+            &.active
+                background-color: #E5E5E5
+                border: 1px solid black
+
+                .left-link-gateway
+                    background-color: #808FF2
+                    cursor: default
+                    height: 45px
+                    position: absolute
+                    right: -33px
+                    width: 16px
+
+            .left-link-svg
+                display: flex
+                margin-right: 16px
+
+    .settings-right
+        background-color: #808FF2
+        border-radius: 16px
+        height: fit-content
+        padding-bottom: 16px
+        padding-left: 16px
+        padding-right: 16px
+        padding-top: 16px
+        width: calc(100% - 416px)
+
+        :deep(.tab)
+            background-color: #ECF0FF
+            padding-bottom: 24px
+            padding-left: 24px
+            padding-right: 24px
+            padding-top: 24px
+            width: 100%
+
+            .tab-part-agenda
+                margin-bottom: 28px
+
+                .agenda-inline
+                    align-items: center
+                    display: flex
+
+                    .agenda-inline-label
+                        font-size: 18px
+                        margin-right: 16px
+
+                    .agenda-inline-selector
+                        input
+                            border: 1px solid #D1D1D1
+                            border-radius: 4px
+                            font-size: 16px
+                            height: 44px
+                            outline: none
+                            padding-left: 8px
+                            width: 110px
+
+                .agenda-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 20px
+
+            .tab-part-country
+                margin-bottom: 28px
+
+                .country-select-wrapper
+                    align-items: center
+                    display: flex
+
+                    .dropdown
+                        width: 60%
+
+                .country-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 20px
+
+            .tab-part-lang
+                margin-bottom: 28px
+
+                .lang-select-wrapper
+                    align-items: center
+                    display: flex
+
+                    .dropdown
+                        width: 60%
+
+                .lang-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 20px
+
+            .tab-part-notifications
+                .notifications-inline
+                    align-items: center
+                    display: flex
+
+                    .notifications-inline-label
+                        font-size: 18px
+                        margin-right: 16px
+
+                .notifications-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 20px
+
+            .tab-part-theme
+                .theme-input
+                    align-items: center
+                    display: flex
+
+                    input[type="radio"]
+                        margin: 0
+                        height: 20px
+                        width: 20px
+
+                    .theme-input-dark, .theme-input-light
+                        align-items: center
+                        border-radius: 6px
+                        display: flex
+                        height: 100%
+                        margin-right: 12px
+                        padding-bottom: 8px
+                        padding-left: 12px
+                        padding-right: 12px
+                        padding-top: 8px
+
+                        @keyframes hover-theme
+                            from
+                                background-color: transparent
+
+                            to
+                                background-color: rgba(128, 143, 242, 0.5)
+
+                        &:hover
+                            animation: hover-theme 0.5s
+                            animation-fill-mode: forwards
+
+                        &.checked
+                            background-color: rgba(128, 143, 242, 0.7)
+
+                        label
+                            align-items: center
+                            cursor: pointer
+                            display: flex
+
+                            input[type="radio"]
+                                margin-right: 8px
+
+                .theme-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 8px
+
+            .tab-part-timezone
+                margin-bottom: 28px
+
+                .timezone-select-wrapper
+                    align-items: center
+                    display: flex
+
+                    .dropdown
+                        width: 60%
+
+                .timezone-title
+                    font-size: 28px
+                    font-weight: 500
+                    margin-bottom: 20px

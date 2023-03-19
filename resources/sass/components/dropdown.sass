@@ -1,0 +1,167 @@
+.dropdown
+    background-color: white
+    position: relative
+
+    .dropdown-header
+        align-items: center
+        border: 1px solid #ced4da
+        border-radius: 4px
+        cursor: pointer
+        display: flex
+        height: auto
+        justify-content: space-between
+        min-height: 40px
+        width: 100%
+
+        .header-arrow
+            align-items: center
+            display: flex
+            margin-left: 8px
+            margin-right: 8px
+
+            &.opened
+                transform: rotate(180deg)
+
+        .header-badges
+            margin-bottom: 4px
+            margin-left: 8px
+            margin-right: 8px
+            margin-top: 8px
+            width: 100%
+
+            .badge
+                //background-color: #e9f0fb
+                border-radius: 12px
+                display: inline-block
+                font-size: 12px
+                margin-right: 0.5rem
+                max-width: calc(100% - 12px)
+                padding-bottom: 4px
+                padding-left: 8px
+                padding-right: 8px
+                padding-top: 4px
+                overflow: hidden
+                text-overflow: ellipsis
+                white-space: nowrap
+
+                .badge-wrapper
+                    align-items: center
+                    display: flex
+                    height: 100%
+                    width: 100%
+
+                    .badge-delete
+                        align-items: center
+                        display: flex
+                        width: 20px
+
+                        .material-icons
+                            font-size: initial
+
+                    .badge-label
+                        padding-right: 4px
+                        width: calc(100% - 20px)
+
+        .header-title
+            align-items: center
+            display: flex
+            padding-left: 16px
+
+            &.placeholder
+                opacity: 0.6
+                user-select: none
+
+            svg
+                height: 22px
+                width: 22px
+
+    .dropdown-menu
+        background-color: white
+        border: 1px solid #ced4da
+        display: none
+        top: 100%
+        z-index: 1
+
+        &.show
+            display: block
+            position: absolute
+
+        .menu-empty
+            padding-bottom: 4px
+            padding-top: 4px
+            text-align: center
+
+        .menu-option-add
+            border: 1px solid #1791ba
+            color: #1791ba
+            cursor: pointer
+            margin-left: 4px
+            margin-right: 4px
+            margin-top: 4px
+            padding-bottom: 2px
+            padding-top: 2px
+            text-align: center
+
+        .menu-search
+            margin: 8px
+
+        .menu-list
+            max-height: 260px
+            overflow: auto
+
+            .menu-list-item
+                cursor: pointer
+                overflow: hidden
+                padding-bottom: 8px
+                padding-left: 12px
+                padding-right: 8px
+                padding-top: 8px
+                text-overflow: ellipsis
+                white-space: nowrap
+                width: 100%
+
+                &:hover
+                    background-color: rgba(66, 133, 244, 0.2)
+                    cursor: pointer
+
+            .menu-list-item-header
+                align-items: center
+                background-color: rgba(66, 133, 244, 0.3)
+                border-bottom: 1px solid rgba(66, 133, 244, 0.2)
+                cursor: pointer
+                display: flex
+                overflow: hidden
+                padding-bottom: 8px
+                padding-left: 12px
+                padding-right: 8px
+                padding-top: 8px
+                text-overflow: ellipsis
+                white-space: nowrap
+                width: 100%
+
+                &:hover
+                    background-color: rgba(66, 133, 244, 0.2)
+                    cursor: pointer
+
+                .item-header-icon
+                    display: flex
+
+                .item-header-label
+                    margin-left: 8px
+
+            .menu-list-selectable-item
+                align-items: center
+                display: flex
+                height: 40px
+
+                &:hover
+                    background-color: rgba(66, 133, 244, 0.2)
+                    cursor: pointer
+
+                .selectable-item-checkbox
+                    padding: 4px
+
+                .selectable-item-label
+                    cursor: pointer
+                    padding: 4px
+                    user-select: none

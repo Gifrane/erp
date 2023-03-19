@@ -1,0 +1,421 @@
+{
+    "add": "Ajouter",
+    "amount": "Montant",
+    "bookmark": {
+        "add": "Ajouter dans vos bookmarks",
+        "remove": "Supprimer de vos bookmarks"
+    },
+    "calendar": {
+        "days": {
+            "abbr": {
+                "mo": "Lu",
+                "tu": "Ma",
+                "we": "Me",
+                "th": "Je",
+                "fr": "Ve",
+                "sa": "Sa",
+                "su": "Di"
+            }
+        },
+        "months": {
+            "name": {
+                "january": "Janvier",
+                "february": "Février",
+                "march": "Mars",
+                "april": "Avril",
+                "may": "Mai",
+                "june": "Juin",
+                "july": "Juillet",
+                "august": "Août",
+                "september": "Septembre",
+                "october": "Octobre",
+                "november": "Novembre",
+                "december": "Decembre"
+            },
+            "number": {
+                "01": "Janvier",
+                "02": "Février",
+                "03": "Mars",
+                "04": "Avril",
+                "05": "Mai",
+                "06": "Juin",
+                "07": "Juillet",
+                "08": "Août",
+                "09": "Septembre",
+                "10": "Octobre",
+                "11": "Novembre",
+                "12": "Décembre"
+            }
+        },
+        "today": "Aujourd'hui"
+    },
+    "cancel": "Annuler",
+    "city": "Ville",
+    "country": "Pays",
+    "countries_list": "Liste des pays",
+    "date": "Date",
+    "day": "Jour",
+    "days": {
+        "monday": "Lundi",
+        "Tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+    },
+    "days_list": "Liste des jours",
+    "delete": "Supprimer",
+    "delete_selection": "Supprimer la sélection",
+    "description": "Description",
+    "details": "Détails",
+    "edit": "Editer",
+    "email": "Adresse email",
+    "firstname": "Prénom",
+    "lang": "Langue",
+    "langs": "Langues",
+    "langs_list": {
+        "en": "Anglais",
+        "fr": "Français"
+    },
+    "lastname": "Nom",
+    "layout": {
+        "sidebar": {
+            "admin": "Administration",
+            "agenda": "Agenda",
+            "api_keys": "Clés API",
+            "billings": "Gestion des factures",
+            "crm": "CRM",
+            "dashboard": "Dashboard",
+            "explorer": "Explorateur de fichiers",
+            "general": "Général",
+            "logout": "Déconnexion",
+            "notifications": "Notifications",
+            "product": "Gestion de produit",
+            "settings": "Paramètres",
+            "supplier_management": "Gestion des fournisseurs",
+            "users": "Utilisateurs"
+        },
+        "navbar": {
+            "notifications": {
+                "notifications": "Notifications"
+            }
+        }
+    },
+    "modules": {
+        "api_keys": "Clés API",
+        "compta_billing": "Factures",
+        "crm": "CRM",
+        "file_explorer": "Fichiers",
+        "product": "Produits",
+        "users": "Utilisateurs"
+    },
+    "name": "Nom",
+    "notifications": "Notifications",
+    "pages": {
+        "admin_api_keys": {
+            "add_keys": "Ajouter des clés",
+            "api_documentations": "Documentations API",
+            "edit_keys": "Modifier des clés",
+            "expiration_date": "Date d'expiration",
+            "generate_new_keys": "Générer de nouvelles clés",
+            "last_30_days": "30 derniers jours",
+            "modules": "Modules",
+            "modules_list": {
+                "products": "Produits",
+                "sales": "Ventes"
+            },
+            "public_key": "Clé publique",
+            "requests": "requêtes",
+            "secret_key": "Clé secrète"
+        },
+        "admin_users": {
+            "add_user": "Ajouter un utilisateur",
+            "add_user_info_icon": "L'utilisateur sera facturé au moment où le compte sera validé et utilisé pour la première fois",
+            "admin": "Administration",
+            "companies": "Compagnies",
+            "created_at": "Date de création",
+            "groups": "Groupes",
+            "lock_account": "Bloquer ce compte",
+            "role": "Rôle",
+            "unlock_account": "Débloquer ce compte",
+            "users": "Utilisateurs",
+            "validated_account": "Compte validé"
+        },
+        "admin_users_companies": {
+            "add_company": "Ajouter une compagnie",
+            "companies": "Compagnies",
+            "groups": "Groupes",
+            "users": "Utilisateurs",
+            "users_count": "Nombre d'utilisateurs"
+        },
+        "admin_users_details": {
+            "account_management": "Gestion du compte",
+            "admin": "Administration",
+            "back_to_users": "Retourner aux utilisateurs",
+            "block_account": "Bloquer ce compte",
+            "generate_new_password": "Générer un nouveau mot de passe",
+            "gestion_users": "Gestion des utilisateurs",
+            "modules": "Modules",
+            "password": "Mot de passe",
+            "permissions": "Permissions",
+            "resend_account_enable_email": "Renvoyer un email d'activation du compte",
+            "role": "Rôle",
+            "send_password_reset_email": "Envoyer un mail de réinitialisation de mot de passe"
+        },
+        "admin_users_details_modules": {
+            "module": "Module",
+            "modules": "Modules",
+            "permissions": "Permissions"
+        },
+        "admin_users_groups": {
+            "add_group": "Ajouter un groupe",
+            "companies": "Compagnies",
+            "deleting_group": "Supprimer ce groupe",
+            "editing_group": "Editer ce groupe",
+            "groups": "Groupes",
+            "users": "Utilisateurs",
+            "users_count": "Nombre d'utilisateurs"
+        },
+        "crm": {
+            "companies": "Compagnies",
+            "contacts": "Contacts",
+            "groups": "Groupes",
+            "nb_companies": "{nb} compagnies",
+            "nb_contacts": "{nb} contacts",
+            "nb_groups": "{nb} groupes",
+            "reviews": "Avis de contact",
+            "sales": "Ventes"
+        },
+        "crm_companies": {
+            "add_company": "Ajouter une compagnie",
+            "companies": "Compagnies",
+            "company_name": "Nom de la compagnie",
+            "contacts": "Contacts",
+            "contacts_count": "Nombre de contacts",
+            "groups": "Groupes",
+            "reviews": "Avis de contact",
+            "sales_count": "Nombre de ventes"
+        },
+        "crm_companies_details": {
+            "annual_revenues": "Chiffre d'affaires",
+            "back_to_companies": "Retourner aux compagnies",
+            "contacts": "Contacts",
+            "employee_interval": "Interval d'employés",
+            "interval_employee_list": "Liste des intervals d'employés",
+            "intervals": {
+                "1-100": "Entre 1 et 100 employés",
+                "101-500": "Entre 101 et 500 employés",
+                "501-2000": "Entre 501 et 2000 employés",
+                "2001-10000": "Entre 2001 et 10000 employés",
+                "10001-50000": "Entre 10001 et 50000 employés",
+                "50001-": "Plus de 50000 employés"
+            },
+            "postal_address": "Adresse postale",
+            "postal_code": "Code postal"
+        },
+        "crm_companies_details_contacts": {
+            "contacts": "Contacts",
+            "registered_at": "Date d'enregistrement"
+        },
+        "crm_contacts": {
+            "add_contact": "Ajouter un contact",
+            "close_search": "Fermer la recherche",
+            "companies": "Compagnies",
+            "companies_list": "Liste des compagnies",
+            "contacts": "Contacts",
+            "contacts_research": "Recherche de contacts",
+            "groups": "Groupes",
+            "groups_list": "Liste des groupes",
+            "link_to_groups": "Lier à des groupes",
+            "nb_selected_contacts": "1 contact sélectionné | {count} contacts sélectionnés",
+            "no_company_found": "Aucune compagnie trouvée",
+            "no_group_found": "Aucun groupe trouvé",
+            "registered_at": "Date d'enregistrement",
+            "reviews": "Avis de contact",
+            "sales": "Ventes",
+            "search_add_filter": "Ajouter un filtre de recherche",
+            "search_filters": {
+                "country": "Pays"
+            },
+            "search_filters_list": "Liste des filtres",
+            "search_operators": {
+                "is_located_in": "Est situé dans",
+                "is_not_located_in": "N'est pas situé dans"
+            }
+        },
+        "crm_contacts_details": {
+            "back_to_contacts": "Retourner aux contacts",
+            "booking": "Réservations",
+            "companies": "Compagnies",
+            "companies_list": "Liste des compagnies",
+            "contacts": "Prises de contact",
+            "datas": "Datas",
+            "function": "Rôle",
+            "groups": "Groupes",
+            "groups_list": "Liste des groupes",
+            "mailer": "Mailer",
+            "no_company_found": "Aucune compagnie trouvée",
+            "no_group_found": "Aucun groupe trouvé",
+            "notes": "Notes",
+            "orders": "Commandes",
+            "pro_phone": "Téléphone professionnel",
+            "reviews": "Avis",
+            "tickets": "Tickets"
+        },
+        "crm_contacts_details_datas": {
+            "booking": "Réservations",
+            "contacts": "Prises de contact",
+            "datas": "Datas",
+            "mailer": "Mailer",
+            "notes": "Notes",
+            "orders": "Commandes",
+            "reviews": "Avis",
+            "tickets": "Tickets"
+        },
+        "crm_groups": {
+            "add_group": "Ajouter un groupe",
+            "companies": "Compagnies",
+            "contacts": "Contacts",
+            "contacts_count": "Nombre de contacts",
+            "creator": "Créateur",
+            "group_name": "Nom du groupe",
+            "groups": "Groupes",
+            "reviews": "Avis de contact"
+        },
+        "crm_groups_details": {
+            "back_to_groups": "Retourner aux groupes",
+            "contacts": "Contacts"
+        },
+        "crm_groups_details_contacts": {
+            "contacts": "Contacts",
+            "registered_at": "Date d'enregistrement"
+        },
+        "dashboard": {
+            "api_requests": {
+                "api_keys": "clés API",
+                "api_requests": "Requêtes API",
+                "requests": "requêtes",
+                "this_day": "Ce jour",
+                "this_hour": "Cette heure",
+                "this_month": "Ce mois",
+                "this_week": "Cette semaine"
+            },
+            "crm": {
+                "companies": "compagnies",
+                "contacts": "contacts",
+                "crm": "CRM",
+                "groups": "groupes",
+                "signed_contracts": "contrats signés",
+                "this_month": "Ce mois-ci",
+                "total_sales": "Total de"
+            },
+            "handle_blocks": "Gérer mes blocs"
+        },
+        "products": {
+            "add_product": "Ajouter un produit",
+            "family": "Gamme",
+            "price_before_tax": "Prix HT",
+            "price_with_tax": "Prix TTC",
+            "product_destroy_error": "Une erreur est survenue durant la suppression du produit.",
+            "product_destroy_success": "La suppression du produit a été faite avec succès.",
+            "products_destroy_error": "Une erreur est survenue durant la suppression des produits.",
+            "products_destroy_success": "La suppression des produits a été faite avec succès.",
+            "products": "Produits",
+            "sales": "Ventes",
+            "search_product": "Rechercher un produit",
+            "vat": "TVA"
+        },
+        "products_details": {
+            "back_to_products": "Retour aux produits",
+            "options": "Options",
+            "periods": {
+                "daily": "A la journée",
+                "hourly": "A l'heure",
+                "monthly": "Au mois",
+                "weekly": "A la semaine",
+                "yearly": "A l'année"
+            },
+            "price_before_tax": "Prix HT",
+            "price_with_tax": "Prix TTC",
+            "product_destroy_error": "Une erreur est survenue durant la suppression du produit.",
+            "product_destroy_success": "La suppression du produit a été faite avec succès.",
+            "product_family": "Gamme du produit",
+            "product_name": "Nom du produit",
+            "products": "Produits",
+            "sales_history": "Historique des ventes",
+            "spare_parts": "Pièces détachées",
+            "start_date_sale": "Date de début de vente",
+            "stop_sale_date": "Date d'arrêt de vente",
+            "subscription_period": "Période d'abonnement",
+            "subscription_periods_list": "Liste des périodes d'abonnement",
+            "variations": "Déclinaisons"
+        },
+        "products_details_spare_parts": {
+            "add_spare_part": "Ajouter une pièce détachée",
+            "amount": "Quantité",
+            "estimated_production_cost": "Coût de fabrication estimé",
+            "estimated_production_cost_warning": "(Ne doit pas contenir les coûts des pièces détachées ci-dessous)",
+            "manufacturer": "Fabriquant",
+            "options": "Options",
+            "products": "Produits",
+            "provider": "Fournisseur",
+            "register_manufacturer": "Enregistrer un fabriquant",
+            "register_provider": "Enregistrer un fournisseur",
+            "sales_history": "Historique des ventes",
+            "select_manufacturer": "Sélectionner un fabriquant",
+            "select_provider": "Sélectionner un fournisseur",
+            "spare_parts": "Pièces détachées",
+            "unit_cost": "Coût unitaire",
+            "variations": "Déclinaisons"
+        },
+        "suppliers": {
+            "add_supplier": "Ajouter un fournisseur",
+            "is_manufacturer": "Fabriquant ?",
+            "is_provider": "Fournisseur ?",
+            "search_supplier": "Rechercher un fournisseur"
+        },
+        "suppliers_details": {
+            "is_manufacturer": "Fabriquant ?",
+            "is_provider": "Fournisseur ?",
+            "suppliers": "Fournisseurs"
+        },
+        "user_settings": {
+            "2fa_configuration": "Configuration 2FA",
+            "2fa_options": {
+                "disabled": "Désactivée",
+                "mail": "Email",
+                "qrcode": "QR code"
+            },
+            "2fa_options_list": "Liste des options 2FA",
+            "day_send_week_recap": "Jour d’envoi du récap de la semaine",
+            "delete_all_sessions": "Supprimer toutes les sessions",
+            "email_reset_password": "Envoyer un email pour redéfinir mon mot de passe",
+            "enable_email_notifications": "Activer les notifications email",
+            "internationalisation": "Internationalisation",
+            "password": "Mot de passe",
+            "security": "Sécurité",
+            "sessions": "Gérer mes sessions",
+            "time_send_day_recap": "Heure d’envoi du récap de la journée"
+        }
+    },
+    "phone": "Téléphone",
+    "save": "Sauvegarder",
+    "search": "Rechercher",
+    "settings": "Paramètres",
+    "tags": {
+        "add_new_tag": "Ajouter un nouveau tag",
+        "add_tag": "Ajouter un tag",
+        "enter_new_tag": "Indiquer le nouveau tag",
+        "no_tag_found": "Aucun tag trouvé",
+        "tags": "Tags",
+        "tags_list": "Liste des tags"
+    },
+    "theme": "Thème",
+    "timezone": "Fuseau horaire",
+    "timezones_list": "Liste des fuseaux horaires",
+    "title": "Titre",
+    "total": "Total",
+    "unlink_selection": "Délier la sélection",
+    "website": "Site web"
+}

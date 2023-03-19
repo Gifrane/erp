@@ -1,0 +1,53 @@
+.modal-wrapper
+    background-color: rgba(0, 0, 0, 0.4)
+    height: 100vh
+    left: 0
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 1
+
+    .modal
+        background-color: white
+        border-radius: 12px
+        left: 50%
+        padding: 16px
+        position: fixed
+        top: 50%
+        transform: translate(-50%, -50%)
+        width: 710px
+        z-index: 2
+
+        .modal-body
+            background-color: #ECF0FF
+            margin-bottom: 24px
+            padding: 12px
+
+        .modal-footer
+            justify-content: right
+            display: flex
+
+        .modal-header
+            align-items: center
+            display: flex
+            height: 32px
+            justify-content: space-between
+            margin-bottom: 24px
+
+            .modal-header-close
+                svg
+                    cursor: pointer
+                    padding: 4px
+
+                &:hover
+                    svg
+                        background-color: rgba(0, 0, 0, 0.3)
+                        border-radius: 50%
+
+            .modal-header-title
+                align-items: center
+                display: flex
+
+                span
+                    font-size: 18px
+                    font-weight: 500

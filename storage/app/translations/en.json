@@ -1,0 +1,421 @@
+{
+    "add": "Add",
+    "amount": "Amount",
+    "bookmark": {
+        "add": "Add in your bookmarks",
+        "remove": "Remove of your bookmarks"
+    },
+    "calendar": {
+        "days": {
+            "abbr": {
+                "mo": "Mo",
+                "tu": "Tu",
+                "we": "We",
+                "th": "Th",
+                "fr": "Fr",
+                "sa": "Sa",
+                "su": "Su"
+            }
+        },
+        "months": {
+            "name": {
+                "january": "January",
+                "february": "February",
+                "march": "March",
+                "april": "April",
+                "may": "May",
+                "june": "June",
+                "july": "July",
+                "august": "August",
+                "september": "September",
+                "october": "October",
+                "november": "November",
+                "december": "December"
+            },
+            "number": {
+                "01": "January",
+                "02": "February",
+                "03": "March",
+                "04": "April",
+                "05": "May",
+                "06": "June",
+                "07": "July",
+                "08": "August",
+                "09": "September",
+                "10": "October",
+                "11": "November",
+                "12": "December"
+            }
+        },
+        "today": "Today"
+    },
+    "cancel": "Cancel",
+    "city": "City",
+    "country": "Country",
+    "countries_list": "Countries list",
+    "date": "Date",
+    "day": "Day",
+    "days": {
+        "monday": "Monday",
+        "Tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+    },
+    "days_list": "Days list",
+    "delete": "Delete",
+    "delete_selection": "Delete selection",
+    "description": "Description",
+    "details": "Details",
+    "edit": "Edit",
+    "email": "Email address",
+    "firstname": "Firstname",
+    "lang": "Lang",
+    "langs": "Langs",
+    "langs_list": {
+        "en": "English",
+        "fr": "French"
+    },
+    "lastname": "Lastname",
+    "layout": {
+        "sidebar": {
+            "admin": "Administration",
+            "agenda": "Agenda",
+            "api_keys": "API keys",
+            "billings": "Billings management",
+            "crm": "CRM",
+            "dashboard": "Dashboard",
+            "explorer": "File explorer",
+            "general": "General",
+            "logout": "Logout",
+            "notifications": "Notifications",
+            "product": "Product gestion",
+            "settings": "Settings",
+            "supplier_management": "Supplier management",
+            "users": "Users"
+        },
+        "navbar": {
+            "notifications": {
+                "notifications": "Notifications"
+            }
+        }
+    },
+    "modules": {
+        "api_keys": "API keys",
+        "compta_billing": "Billings",
+        "crm": "CRM",
+        "file_explorer": "File explorer",
+        "product": "Products",
+        "users": "Users"
+    },
+    "name": "Name",
+    "notifications": "Notifications",
+    "pages": {
+        "admin_api_keys": {
+            "add_keys": "Add keys",
+            "api_documentations": "API Documentations",
+            "edit_keys": "Edit keys",
+            "expiration_date": "Expiration date",
+            "generate_new_keys": "Generate new keys",
+            "last_30_days": "Last 30 days",
+            "modules": "Modules",
+            "modules_list": {
+                "products": "Products",
+                "sales": "Sales"
+            },
+            "public_key": "Public key",
+            "requests": "requests",
+            "secret_key": "Secret key"
+        },
+        "admin_users": {
+            "add_user": "Add an user",
+            "add_user_info_icon": "The user will be billed when the account is validated and used for the first time",
+            "admin": "Administration",
+            "companies": "Companies",
+            "created_at": "Created at",
+            "groups": "Groups",
+            "lock_account": "Lock this account",
+            "role": "Role",
+            "unlock_account": "Unlock this account",
+            "users": "Users",
+            "validated_account": "Validated account"
+        },
+        "admin_users_companies": {
+            "add_company": "Add a company",
+            "companies": "Companies",
+            "groups": "Groups",
+            "users": "Users",
+            "users_count": "Users count"
+        },
+        "admin_users_details": {
+            "account_management": "Account management",
+            "admin": "Administration",
+            "back_to_users": "Back to users",
+            "block_account": "Block this account",
+            "generate_new_password": "Generate a new password",
+            "gestion_users": "Users gestion",
+            "modules": "Modules",
+            "password": "Password",
+            "permissions": "Permissions",
+            "resend_account_enable_email": "Resend an account enabling email",
+            "role": "Role",
+            "send_password_reset_email": "Send a password reset email"
+        },
+        "admin_users_details_modules": {
+            "module": "Module",
+            "modules": "Modules",
+            "permissions": "Permissions"
+        },
+        "admin_users_groups": {
+            "add_group": "Add a group",
+            "companies": "Companies",
+            "deleting_group": "Deleting this group",
+            "editing_group": "Editing this group",
+            "groups": "Groups",
+            "users": "Users",
+            "users_count": "Users count"
+        },
+        "crm": {
+            "companies": "Companies",
+            "contacts": "Contacts",
+            "groups": "Groups",
+            "nb_companies": "{nb} companies",
+            "nb_contacts": "{nb} contacts",
+            "nb_groups": "{nb} groups",
+            "reviews": "Reviews",
+            "sales": "Sales"
+        },
+        "crm_companies": {
+            "add_company": "Add a company",
+            "companies": "Companies",
+            "company_name": "Company name",
+            "contacts": "Contacts",
+            "contacts_count": "Contacts count",
+            "groups": "Groups",
+            "reviews": "Reviews",
+            "sales_count": "Sales count"
+        },
+        "crm_companies_details": {
+            "annual_revenues": "Annual revenues",
+            "back_to_companies": "Back to companies",
+            "contacts": "Contacts",
+            "employee_interval": "Employee interval",
+            "interval_employee_list": "Interval employees list",
+            "intervals": {
+                "1-100": "Between 1 and 100 employees",
+                "101-500": "Between 101 and 500 employees",
+                "501-2000": "Between 501 and 2000 employees",
+                "2001-10000": "Between 2001 et 10000 employees",
+                "10001-50000": "Between 10001 and 50000 employees",
+                "50001-": "More than 50000 employees"
+            },
+            "postal_address": "Postal address",
+            "postal_code": "Postal code"
+        },
+        "crm_companies_details_contacts": {
+            "contacts": "Contacts",
+            "registered_at": "Registered at"
+        },
+        "crm_contacts": {
+            "add_contact": "Add a contact",
+            "close_search": "Close search",
+            "companies": "Companies",
+            "companies_list": "Companies list",
+            "contacts": "Contacts",
+            "contacts_research": "Contacts research",
+            "groups": "Groups",
+            "groups_list": "Groups list",
+            "link_to_groups": "Link to groups",
+            "nb_selected_contacts": "1 selected contact | {count} selected contacts",
+            "no_company_found": "No company found",
+            "no_group_found": "No group found",
+            "registered_at": "Registered at",
+            "reviews": "Reviews",
+            "sales": "Sales",
+            "search_add_filter": "Add a search filter",
+            "search_filters": {
+                "country": "Country"
+            },
+            "search_filters_list": "Filters list",
+            "search_operators": {
+                "is_located_in": "Is located in",
+                "is_not_located_in": "Is not located in"
+            }
+        },
+        "crm_contacts_details": {
+            "back_to_contacts": "Back to contacts",
+            "booking": "Booking",
+            "companies": "Companies",
+            "companies_list": "Companies list",
+            "contacts": "Contacts",
+            "datas": "Datas",
+            "function": "Function",
+            "groups": "Groups",
+            "groups_list": "Groups list",
+            "mailer": "Mailer",
+            "no_company_found": "No company found",
+            "no_group_found": "No group found",
+            "notes": "Notes",
+            "orders": "Orders",
+            "pro_phone": "Professional phone",
+            "reviews": "Reviews",
+            "tickets": "Tickets"
+        },
+        "crm_contacts_details_datas": {
+            "booking": "Booking",
+            "contacts": "Contacts",
+            "datas": "Datas",
+            "mailer": "Mailer",
+            "notes": "Notes",
+            "orders": "Orders",
+            "reviews": "Reviews",
+            "tickets": "Tickets"
+        },
+        "crm_groups": {
+            "add_group": "Add a group",
+            "companies": "Companies",
+            "contacts": "Contacts",
+            "contacts_count": "Contacts count",
+            "creator": "Creator",
+            "group_name": "Group name",
+            "groups": "Groups",
+            "reviews": "Reviews"
+        },
+        "crm_groups_details": {
+            "back_to_groups": "Back to groups",
+            "contacts": "Contacts"
+        },
+        "crm_groups_details_contacts": {
+            "contacts": "Contacts",
+            "registered_at": "Registered at"
+        },
+        "dashboard": {
+            "api_requests": {
+                "api_keys": "API keys",
+                "api_requests": "API requests",
+                "requests": "requests",
+                "this_day": "This day",
+                "this_hour": "This hour",
+                "this_month": "This month",
+                "this_week": "This week"
+            },
+            "crm": {
+                "companies": "companies",
+                "contacts": "contacts",
+                "crm": "CRM",
+                "groups": "groups",
+                "signed_contracts": "signed contracts",
+                "this_month": "This month",
+                "total_sales": "Total of"
+            },
+            "handle_blocks": "Handle my blocks"
+        },
+        "products": {
+            "add_product": "Add a product",
+            "family": "Family",
+            "price_before_tax": "Price before tax",
+            "price_with_tax": "Price with tax",
+            "product_destroy_error": "Error during product deletion.",
+            "product_destroy_success": "Product deletion succeeded.",
+            "products_destroy_error": "Error during products deletion.",
+            "products_destroy_success": "Products deletion succeeded.",
+            "products": "Products",
+            "sales": "Sales",
+            "search_product": "Search a product",
+            "vat": "VAT"
+        },
+        "products_details": {
+            "back_to_products": "Back to products",
+            "options": "Options",
+            "periods": {
+                "daily": "Daily",
+                "hourly": "Hourly",
+                "monthly": "Monthly",
+                "weekly": "Weekly",
+                "yearly": "Yearly"
+            },
+            "price_before_tax": "Price before tax",
+            "price_with_tax": "Price with tax",
+            "product_destroy_error": "Error during product deletion.",
+            "product_destroy_success": "Product deletion succeeded.",
+            "product_family": "Product family",
+            "product_name": "Product name",
+            "products": "Products",
+            "sales_history": "Sales history",
+            "spare_parts": "Spare parts",
+            "start_date_sale": "Start date of the sale",
+            "stop_sale_date": "Stop sale date",
+            "subscription_period": "Subscription period",
+            "subscription_periods_list": "Subscription periods list",
+            "variations": "Variations"
+        },
+        "products_details_spare_parts": {
+            "add_spare_part": "Add a spare part",
+            "amount": "Amount",
+            "estimated_production_cost": "Estimated production cost",
+            "estimated_production_cost_warning": "(Should not contain the costs of the following spare parts)",
+            "manufacturer": "Manufacturer",
+            "options": "Options",
+            "products": "Products",
+            "provider": "Provider",
+            "register_manufacturer": "Register a manufacturer",
+            "register_provider": "Register a provider",
+            "sales_history": "Sales history",
+            "select_manufacturer": "Select a manufacturer",
+            "select_provider": "Select a provider",
+            "spare_parts": "Spare parts",
+            "unit_cost": "Unit cost",
+            "variations": "Variations"
+        },
+        "suppliers": {
+            "add_supplier": "Add a supplier",
+            "is_manufacturer": "Manufacturer ?",
+            "is_provider": "Provider ?",
+            "search_supplier": "Search a supplier"
+        },
+        "suppliers_details": {
+            "is_manufacturer": "Manufacturer ?",
+            "is_provider": "Provider ?",
+            "suppliers": "Suppliers"
+        },
+        "user_settings": {
+            "2fa_configuration": "2FA Configuration",
+            "2fa_options": {
+                "disabled": "Disabled",
+                "mail": "Mail",
+                "qrcode": "QR code"
+            },
+            "2fa_options_list": "2FA options list",
+            "day_send_week_recap": "Day to send the week's recap",
+            "delete_all_sessions": "Delete all sessions",
+            "email_reset_password": "Send an email for reset my password",
+            "enable_email_notifications": "Enable email notifications",
+            "internationalisation": "Internationalisation",
+            "password": "Password",
+            "security": "Security",
+            "sessions": "Manage my sessions",
+            "time_send_day_recap": "Time to send the day's recap"
+        }
+    },
+    "phone": "Phone",
+    "save": "Save",
+    "search": "Search",
+    "settings": "Settings",
+    "tags": {
+        "add_new_tag": "Add a new tag",
+        "add_tag": "Add a tag",
+        "enter_new_tag": "Enter the new tag",
+        "no_tag_found": "No tag found",
+        "tags": "Tags",
+        "tags_list": "Tags list"
+    },
+    "theme": "Theme",
+    "timezone": "Timezone",
+    "timezones_list": "Timezones list",
+    "title": "Title",
+    "total": "Total",
+    "unlink_selection": "Unlink selection",
+    "website": "Website"
+}

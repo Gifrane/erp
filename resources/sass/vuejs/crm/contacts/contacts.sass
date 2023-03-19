@@ -1,0 +1,66 @@
+.contacts
+    background-color: #808FF2
+    border-radius: 16px
+    margin: 24px
+    padding: 16px
+
+    .contacts-list
+        background-color: #ECF0FF
+        padding: 24px
+
+        .contacts-list-wrapper
+            &.col-9
+                padding-left: 16px
+
+                .list-table
+                    table
+                        tbody
+                            .td-content
+                                font-size: 14px
+
+            .list-actions
+                margin-bottom: 24px
+
+            .list-multiple
+                margin-bottom: 16px
+
+                .list-multiple-actions
+                    align-items: center
+                    display: flex
+
+                    button
+                        margin-right: 12px
+
+                .list-multiple-header
+                    margin-bottom: 8px
+
+                    .header-cancel
+                        cursor: pointer
+                        margin-left: 16px
+                        text-decoration: underline
+                        text-transform: lowercase
+
+                    .header-label
+                        font-size: 18px
+
+    :deep(.contacts-search)
+        border: 1px solid #dee2e6
+        min-height: 100px
+        padding-left: 12px
+        padding-right: 12px
+
+        .search-header
+            align-items: center
+            display: flex
+            position: relative
+
+            .search-header-title
+                font-size: 1.4em
+
+    :deep(.modale-search-add-filter)
+        .modal
+            .modal-header
+                .modal-header-title
+                    .header-title-icon
+                        display: flex
+                        margin-right: 8px

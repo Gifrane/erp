@@ -1,0 +1,81 @@
+.badge
+    background-color: #2196F3
+    border-radius: 10px
+    color: #ffffff
+    display: inline-block
+    font-size: 0.75rem
+    height: 1.4rem
+    line-height: 1.4rem
+    min-width: 1.5rem
+    padding: 0 .5rem
+    text-align: center
+
+.badge-with-icon
+    background-color: #2196F3
+    border-radius: 10px
+    color: #ffffff
+    display: inline-block
+    font-size: 0.75rem
+    height: 1.4rem
+    line-height: 1.4rem
+    min-width: 1.5rem
+    padding: 0 .5rem
+    text-align: center
+
+    .badge-wrapper
+        align-items: center
+        display: flex
+        height: 100%
+        width: 100%
+
+        .badge-delete
+            align-items: center
+            cursor: pointer
+            display: flex
+            width: 20px
+
+            svg
+                path
+                    fill: white
+
+            .material-icons
+                font-size: initial
+
+        .badge-label
+            padding-right: 4px
+            width: calc(100% - 20px)
+
+.divider
+    align-items: center
+    display: flex
+    margin: 1rem 0
+    padding-left: 16px
+    position: relative
+    width: 100%
+
+    &::before
+        border-top: 1px solid #dee2e6
+        content: ''
+        display: block
+        left: 0
+        position: absolute
+        top: 50%
+        width: 100%
+
+    .divider-content
+        background-color: #ECF0FF
+        padding-left: 8px
+        padding-right: 8px
+        z-index: 1
+
+.tab-content
+    border: 1px solid #dee2e6
+    background-color: white
+
+.tag
+    background-color: #2196F3
+    border-radius: 3px
+    color: white
+    font-size: 0.75rem
+    font-weight: 500
+    padding: 0.25rem 0.4rem
